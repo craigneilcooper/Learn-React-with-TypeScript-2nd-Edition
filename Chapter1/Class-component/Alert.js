@@ -33,7 +33,7 @@ export class Alert extends Component {
             {type === "warning" ? "⚠" : "ℹ️"}
           </span>
           <span>{heading}</span>
-        </div>
+        </div> 
         {closable && (
           <button aria-label="Close" onClick={handleCloseClick}>
             <span role="img" aria-label="Close">
